@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./paper.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Rock Paper Sissors Game</h1>
+        <h2>YOU VS COMPUTER</h2>
+      </div>
+      <!-- the middle image display section -->
+      <div class="image_section">
+        <div class="image image1">
+          <img
+            id="human"
+            src="./image/human_icon.jpg"
+            width="200"
+          
+            alt="" />
+          <div class="chooses">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="sissor">Sissor</button>
+          </div>
+          <div class=" score"id="human_score">Your Point</div>
+        </div>
+        <div class="vs">
+          <h1>VS</h1>
+        </div>
+        <div class="image2 image">
+          <img id="computer" src="./image/computer_icon.jpg" alt="" />
+          <div class="chooses">Computer Chooses :</div>
+          <div class=" score" id="computer_score">Computer's Point</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./sissor.js"></script>
+  </body>
+</html>

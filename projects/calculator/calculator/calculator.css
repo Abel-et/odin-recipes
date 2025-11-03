@@ -1,0 +1,79 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e96d0f;
+
+}
+.container {
+  margin: 100px 100px;
+  width: 320px;
+  height: 520px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+  border: 10px solid rgb(2, 25, 58);
+}
+.container > #display {
+ height: 3.5em; /* or more if you want room for wrapping */
+  word-break: break-all; /* break long words if needed */
+  white-space: normal;   /* allow wrapping to new line */
+  font-size: 2rem;       /* default size (overriden in JS) */
+  line-height: 1.2;
+  padding: 0.2em 0.5em;
+  background-color: white;
+
+}
+.btn_areas {
+  height: 380px;
+  background-color: rgb(9, 8, 17);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.btn {
+  width: 70px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 1px;
+  font-size: large;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  color: white;
+  background-color: rgba(241, 227, 227, 0.085);
+}
+.opi {
+  background: rgba(236, 232, 232, 0.177);
+}
+.opa {
+  background-color: #e6e6ff;
+  color: black;
+}
+.op {
+  background-color: #022e41;
+  font-size: 20px;
+  padding: 0;
+}
+.btn:hover {
+  background-color: #655f5f;
+}
+.btn:active {
+  scale: 0.9;
+}
+hr {
+  border: none;
+  height: 2px;
+  background-color: #333;
+  width: 100%;
+}

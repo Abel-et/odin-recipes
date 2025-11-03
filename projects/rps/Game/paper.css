@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  /* justify-self: center; */
+}
+
+.container {
+  height: 100vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background: #000; */
+  margin: 0 10%;
+}
+
+img {
+  max-width: 200px;
+  border-radius: 50%;
+  border: 3px solid;
+}
+.header {
+  width: 100%;
+  background: linear-gradient(90deg, #f8b407, #bd0909);
+  -webkit-background-clip: text;
+  /* background: gray; */
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.image_section {
+  padding: 20px;
+  /* background-color: aquamarine; */
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+}
+.image {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  gap: 5px;
+  width: 35%;
+}
+
+.chooses {
+  margin: 10px 9px;
+  width: 200px;
+  height: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 700;
+  font-size: 20px;
+}
+button {
+  width: 60px;
+  border-radius: 5px;
+  border: none;
+  background: linear-gradient(9deg, #f8b407, #502c01);
+}
+button:hover {
+  background: linear-gradient(9deg, #502c01, #f8b407);
+}
+button:active {
+  background: #000;
+  color: white;
+}
+
+.score {
+  font-size: 20px;
+  font-weight: 700;
+  align-self: flex-start;
+}
+/* .image2 {
+  background: red;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 40px;
+} */
+.result {
+  background-color: rgb(231, 202, 12);
+  width: 500px;
+  height: 320px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px peru;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  visibility: hidden;
+  z-index: 4;
+}
+.result_button {
+  width: 90px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background: linear-gradient(9deg, #21211f, #555449);
+  position: absolute;
+  top: 80%;
+  left: 35%;
+  color: white;
+  font-weight: bold;
+}
+.result_button:hover {
+  background-color: rgb(56, 130, 192);
+}
