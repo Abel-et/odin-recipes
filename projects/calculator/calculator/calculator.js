@@ -111,8 +111,7 @@ function evaluateFormula(){
 }
 
 
-let userInput = "alert('Hacked!')";
-eval(userInput); 
+
 
           /*2. Organize Your JavaScript Functions
 Here’s a pattern to structure your calculator in JS:
